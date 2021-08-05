@@ -1,0 +1,40 @@
+nav{
+    height: fit-content;
+    background-color: #f3f3f3;
+    margin: 20px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d4d4d5;
+
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%);
+    text-align: left;
+}
+
+nav h2{
+    font-size: 24px;
+    padding: 15px 20px;
+}
+
+.nav_item{
+    width: 100%;
+    padding: 0 20px 0 16px;
+    overflow: hidden;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    transition-property: background-color, color, border-color;
+    transition-duration: 300ms, 300ms, 300ms;
+    transition-delay: 0s, 0s, 0s;
+}
+
+.nav_herf{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.nav_num{
+    float: right;
+    color: #888;
+}

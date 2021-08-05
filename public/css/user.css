@@ -1,0 +1,35 @@
+.user{
+    height: fit-content;
+    background: #ededef;
+    margin: 20px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d4d4d5;
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 30%);
+
+    text-align: left;
+}
+
+.user_name{
+    font-size: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.vr{
+    height: 80px;
+}
+
+.user_prv{
+    margin: 10px 10px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.user_prv td{
+    padding: 0 5px;
+}

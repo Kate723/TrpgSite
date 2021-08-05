@@ -1,0 +1,105 @@
+@import url("./prime.css");
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+input{
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding: 0 24px;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+input:required{
+    background: transparent;
+    border: none;
+}
+
+.log_win{
+    height: fit-content;
+    min-width: 200px;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    background: #ededef;
+    opacity: 0.9;
+    border-radius: 10px;
+
+    padding: 0 20px 20px;
+}
+
+.log_tag{
+    height: 10px;
+}
+
+.active_tag, .inactive_tag{
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    float: left;
+    margin: 10px 20px 0px;
+}
+.inactive_tag{
+    color: gray;
+}
+.active_tag::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    margin: auto;
+    background: #4EB7BA;
+    float: left;
+}
+
+.inputBox{
+    width: 50%;
+    min-width: 120px;
+    height: 48px;
+    background: #ffffff;
+    transition: all 0.3s;
+    border: 1px solid #d4d4d5;
+    border-radius: 24px;
+    margin: 8px auto 16px;
+
+    clear: both;
+    font-size: 14px;
+    color: #1F1F1F;
+    align-items: center;    
+    overflow: hidden;
+}
+
+.Button{
+    width: 60%;
+    height: 48px;
+    border-radius: 28px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: #4EB7BA;
+    background-color: #4EB7BA;
+    margin: 8px auto;
+} 
+
+.input_area{
+    clear:both;
+    padding: 8px;
+}

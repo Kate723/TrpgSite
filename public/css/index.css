@@ -1,0 +1,24 @@
+@import url("./prime.css");
+@import url("./nav.css");
+@import url("./user.css");
+
+.main{
+    width: 100%;
+    height: 80%;
+    padding: 50px;
+}
+.main_lside{
+    width: 60%;
+    height: 70%;
+    background: transparent;
+    background: #dfdfdfdf;
+    margin: 50px;
+    padding: 30px;
+    float: left;
+}
+.main_rside{
+    width: 30%;
+    background: transparent;
+    padding: 30px;
+    float: right;
+}

@@ -1,0 +1,73 @@
+@import url("./reset.css");
+
+body{
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../images/coc.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background: #222222;
+    margin:0;
+    border:0;
+    padding: 10px 30px;
+    position: relative;
+}
+.header_text{
+    color: #efefef;
+    float: left;
+}
+header h1{
+    font-size: 1cm;
+}
+
+hr{
+    width: 99%;
+    height: 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+.vr{
+    width: 2px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+
+.vr::before{
+    content: " ";
+    display: block;
+    float: left;
+    width: 1px;
+    height: 100%;
+    background: #d8d8d8;
+}
+
+.vr::after{
+    content: " ";
+    display: block;
+    float: left;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+}
+
+footer{
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background: #222222;
+    border:0;
+    clear: both;
+}

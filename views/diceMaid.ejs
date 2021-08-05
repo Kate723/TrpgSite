@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title><%= title %> </title>
+    <link rel="stylesheet" type = "text/css" href="../public/css/random.css">
+    <script type="text/javascript" src="../public/scripts/dice.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_text">
+            <h1>TRPGQuill</h1>
+            <p>今天你<font color = #222222>跑团</font>了吗？</p>
+        </div>
+    </header>
+
+    <div class="dice_box">
+        <button type = "button" onclick="wereWolf()">
+            <h5>Roll</h5>
+        </button>
+        <h5>狼人</h5>
+        <h6>AC：12 HP：58<br>速度：30</h6>
+        <h6 id = "wereWolf_N1">啃咬</h6>
+		<p id="wereWolfAR1">命中 </p>
+		<p id="wereWolfD1">伤害 </p>
+        <h6 id = "wereWolf_N2">爪击或矛</h6>
+        <p id="wereWolfAR2">命中 </p>
+		<p id="wereWolfD2">伤害 </p>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
